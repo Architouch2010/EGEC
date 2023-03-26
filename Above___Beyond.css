@@ -1,0 +1,606 @@
+.mediaViewInfo {
+	--web-view-name: Above & Beyond;
+	--web-view-id: Above__Beyond;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+:root {
+	--web-view-ids: Above__Beyond;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Above__Beyond {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: arial, sans-serif;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Above & Beyond;
+	--web-view-id: Above__Beyond;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+#Group_6_dg {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_452_dh {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_452_dh {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Content {
+	position: fixed;
+	width: 1793.181px;
+	height: 897.761px;
+	left: 60px;
+	top: 95px;
+	overflow: visible;
+}
+#Text_Layout_dj {
+	position: absolute;
+	width: 1244px;
+	height: 895px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#EGEC__ABOVE_AND_BEYOND {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 601px;
+	height: 100px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(46,72,43,1);
+}
+#Providing_a_reliable_value_exp {
+	left: 577px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 668px;
+	height: 424px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Our_Quality_Management_System_ {
+	left: 577px;
+	top: 646px;
+	position: absolute;
+	overflow: visible;
+	width: 662px;
+	height: 249px;
+	line-height: 30px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(46,72,43,1);
+}
+#April_2_2023 {
+	left: 26px;
+	top: 877px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Time {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 874px;
+	overflow: visible;
+}
+#Path_13 {
+	fill: rgba(46,72,43,1);
+}
+.Path_13 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#line {
+	fill: rgba(115,139,111,1);
+}
+.line {
+	position: absolute;
+	overflow: visible;
+	width: 600px;
+	height: 2px;
+	left: 0px;
+	top: 893px;
+}
+#Group_3 {
+	position: absolute;
+	width: 515.762px;
+	height: 897.761px;
+	left: 1277.419px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2 {
+	position: absolute;
+	width: 515.762px;
+	height: 897.761px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Footer_dt {
+	position: absolute;
+	width: 1920px;
+	height: 70px;
+	left: 0px;
+	top: 1010px;
+	overflow: visible;
+}
+#Base_du {
+	fill: rgba(46,72,43,1);
+}
+.Base_du {
+	position: absolute;
+	overflow: visible;
+	width: 1800px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+#Base_dv {
+	fill: rgba(87,96,73,1);
+}
+.Base_dv {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 70px;
+	left: 1800px;
+	top: 0px;
+}
+#links_dw {
+	position: absolute;
+	width: 296px;
+	height: 11px;
+	left: 812px;
+	top: 30px;
+	overflow: visible;
+}
+#NEWS_dx {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#SPORT_dy {
+	left: 73px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#WEATHER_dz {
+	left: 156px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#FUTURE_d {
+	left: 255px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#Background_d {
+	fill: rgba(46,72,43,1);
+}
+.Background_d {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549));
+	overflow: visible;
+	position: absolute;
+	width: 1938px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#About_d {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1387px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Vision_Mission.html;
+	cursor: pointer;
+}
+#Button_02_d {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_d {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#about_d {
+	left: 25px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Component_32__1 {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1490px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_ea {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_ea {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#SERVICES_d {
+	left: 17px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Fitout_Projects.html;
+	cursor: pointer;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Careers_d {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1701px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Careers.html;
+	cursor: pointer;
+}
+#Button_02_eb {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_eb {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CAREERS_ea {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Contact_eb {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1804px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Contact.html;
+	cursor: pointer;
+}
+#Button_02_ec {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_ec {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CONTACT_ed {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Home_ee {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1285px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Homepage___1.html;
+	cursor: pointer;
+}
+#Button01_ef {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button01_ef {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#HOME_eg {
+	left: 27px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#EGEC_Logo_eh {
+	position: absolute;
+	width: 264px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_25__1 {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1595px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_ej {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_ej {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#PROJECTS_ek {
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}

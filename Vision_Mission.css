@@ -1,0 +1,701 @@
+.mediaViewInfo {
+	--web-view-name: Vision/Mission;
+	--web-view-id: VisionMission;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+:root {
+	--web-view-ids: VisionMission;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#VisionMission {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: arial, sans-serif;
+	background-color: rgba(255,255,255,0.09);
+	overflow: hidden;
+	--web-view-name: Vision/Mission;
+	--web-view-id: VisionMission;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Base_bu {
+	fill: transparent;
+}
+.Base_bu {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Group_6 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_452 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_452 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Page_02 {
+	position: absolute;
+	width: 1040px;
+	height: 903px;
+	left: 64px;
+	top: 93px;
+	overflow: visible;
+}
+#Text_Layout {
+	position: absolute;
+	width: 1040px;
+	height: 903px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Vision {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1041px;
+	height: 51px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(46,72,43,1);
+}
+#______________________________ {
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 1025px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Mission_ {
+	left: 0px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 1041px;
+	height: 51px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(46,72,43,1);
+}
+#_______________________________b {
+	left: 0px;
+	top: 172px;
+	position: absolute;
+	overflow: visible;
+	width: 1041px;
+	height: 50px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Our_Values {
+	left: 0px;
+	top: 261px;
+	position: absolute;
+	overflow: visible;
+	width: 1041px;
+	height: 51px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(46,72,43,1);
+}
+#Client_Care__The_welfare_of_ou {
+	left: 0px;
+	top: 369px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Teamwork__Through_maintaining_ {
+	left: 401px;
+	top: 369px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Innovation__Innovative_out-of- {
+	left: 743px;
+	top: 369px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Continuous___Improvement__EGEC {
+	left: 0px;
+	top: 695px;
+	position: absolute;
+	overflow: hidden;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Ethics__We_adhere_strictly_to_ {
+	left: 401px;
+	top: 695px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Talent__Development__Our_Emplo {
+	left: 743px;
+	top: 695px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 208px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Footer_ca {
+	position: absolute;
+	width: 1920px;
+	height: 70px;
+	left: 0px;
+	top: 1010px;
+	overflow: visible;
+}
+#Base_cb {
+	fill: rgba(46,72,43,1);
+}
+.Base_cb {
+	position: absolute;
+	overflow: visible;
+	width: 1800px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+#Base_cc {
+	fill: rgba(87,96,73,1);
+}
+.Base_cc {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 70px;
+	left: 1800px;
+	top: 0px;
+}
+#links_cd {
+	position: absolute;
+	width: 296px;
+	height: 11px;
+	left: 812px;
+	top: 30px;
+	overflow: visible;
+}
+#NEWS_ce {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#SPORT_cf {
+	left: 73px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#WEATHER_cg {
+	left: 156px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#FUTURE_ch {
+	left: 255px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#Group_7 {
+	position: absolute;
+	width: 291px;
+	height: 903px;
+	left: 1549px;
+	top: 93px;
+	overflow: visible;
+}
+#Mask_Group_4 {
+	position: absolute;
+	width: 291px;
+	height: 291px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Mask_Group_5 {
+	position: absolute;
+	width: 291px;
+	height: 291px;
+	left: 0px;
+	top: 306px;
+	overflow: visible;
+}
+#Mask_Group_6 {
+	position: absolute;
+	width: 291px;
+	height: 291px;
+	left: 0px;
+	top: 612px;
+	overflow: visible;
+}
+#Background_cm {
+	fill: rgba(46,72,43,1);
+}
+.Background_cm {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549));
+	overflow: visible;
+	position: absolute;
+	width: 1938px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#About_cn {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1387px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_co {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_co {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#about_cp {
+	left: 25px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Component_28__1 {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1490px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_cr {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_cr {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#SERVICES_cs {
+	left: 17px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Project {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1595px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_cu {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_cu {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#PROJECTS_cv {
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Careers_cw {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1701px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_cx {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_cx {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CAREERS_cy {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Contact_cz {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1804px;
+	top: -6px;
+	overflow: visible;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Contact.html;
+	cursor: pointer;
+}
+#Button_02_c {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_c {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CONTACT_c {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Home_c {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1285px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Homepage___1.html;
+	cursor: pointer;
+}
+#Button01_c {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button01_c {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#HOME_c {
+	left: 27px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#EGEC_Logo_c {
+	position: absolute;
+	width: 264px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}

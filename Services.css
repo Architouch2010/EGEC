@@ -1,0 +1,576 @@
+.mediaViewInfo {
+	--web-view-name: Services;
+	--web-view-id: Services;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+:root {
+	--web-view-ids: Services;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Services {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: arial, sans-serif;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Services;
+	--web-view-id: Services;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, sans-serif;
+}
+@keyframes  {
+
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Footer {
+	position: absolute;
+	width: 1920px;
+	height: 70px;
+	left: 0px;
+	top: 1010px;
+	overflow: visible;
+}
+#Base {
+	fill: rgba(46,72,43,1);
+}
+.Base {
+	position: absolute;
+	overflow: visible;
+	width: 1800px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+#Base_q {
+	fill: rgba(87,96,73,1);
+}
+.Base_q {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 70px;
+	left: 1800px;
+	top: 0px;
+}
+#links {
+	position: absolute;
+	width: 296px;
+	height: 11px;
+	left: 812px;
+	top: 30px;
+	overflow: visible;
+}
+#NEWS {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#SPORT {
+	left: 73px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#WEATHER {
+	left: 156px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#FUTURE {
+	left: 255px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	white-space: nowrap;
+	line-height: 26px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(247,247,247,1);
+}
+#divider {
+	fill: transparent;
+	stroke: rgba(235,237,237,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.divider {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 900.809px;
+	left: 643.642px;
+	top: 93px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image {
+	position: absolute;
+	width: 1142px;
+	height: 372px;
+	left: 722px;
+	top: 622px;
+	overflow: visible;
+}
+#playbutton {
+	position: absolute;
+	width: 62px;
+	height: 62px;
+	left: 1270px;
+	top: 777px;
+	overflow: visible;
+}
+#base {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.base {
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	height: 62px;
+	left: 0px;
+	top: 0px;
+}
+#icon {
+	fill: rgba(255,255,255,1);
+}
+.icon {
+	overflow: visible;
+	position: absolute;
+	width: 9.913px;
+	height: 12.391px;
+	left: 27.204px;
+	top: 24.752px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#left_column {
+	position: absolute;
+	width: 1190px;
+	height: 909px;
+	left: 49px;
+	top: 93px;
+	overflow: visible;
+}
+#Sustainable_Focus_With_sustain {
+	left: 673px;
+	top: 39px;
+	position: absolute;
+	overflow: visible;
+	width: 518px;
+	height: 832px;
+	line-height: 26px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Helvetica, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Group_41309 {
+	position: absolute;
+	width: 517px;
+	height: 909px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Core_Services_ {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 518px;
+	height: 92px;
+	line-height: 42px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(46,72,43,1);
+}
+#Engineering_and_Design_At_EGEC {
+	left: 0px;
+	top: 77px;
+	position: absolute;
+	overflow: visible;
+	width: 518px;
+	height: 832px;
+	line-height: 26px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Helvetica, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(46,72,43,1);
+}
+#Group_12 {
+	position: absolute;
+	width: 617.511px;
+	height: 472.784px;
+	left: 1239px;
+	top: 116.216px;
+	overflow: visible;
+}
+#Group_11 {
+	position: absolute;
+	width: 617.511px;
+	height: 472.784px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Background {
+	fill: rgba(46,72,43,1);
+}
+.Background {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549));
+	overflow: visible;
+	position: absolute;
+	width: 1938px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#About {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1387px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02 {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02 {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#about {
+	left: 25px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#Component_29__1 {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1490px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_bd {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_bd {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#SERVICES {
+	left: 17px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Component_24__1 {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1595px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_bg {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_bg {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#PROJECTS {
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Careers_bi {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1701px;
+	top: -6px;
+	overflow: visible;
+}
+#Button_02_bj {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_bj {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CAREERS {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Contact_bl {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1804px;
+	top: -6px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in-out;
+	--web-animation: fadein 0.30000001192092896s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Contact.html;
+	cursor: pointer;
+}
+#Button_02_bm {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button_02_bm {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#CONTACT {
+	left: 18px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Home {
+	position: absolute;
+	width: 84px;
+	height: 52px;
+	left: 1285px;
+	top: -6px;
+	overflow: visible;
+}
+#Button01 {
+	fill: rgba(14,51,1,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Button01 {
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#HOME {
+	left: 27px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 12px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Arial, arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#EGEC_Logo {
+	position: absolute;
+	width: 264px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}

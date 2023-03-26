@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Projects;
+		--web-view-id: Projects;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+		--web-page-font: arial, sans-serif;
+	}
+	:root {
+		--web-view-ids: Projects;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Projects {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		font-family: arial, sans-serif;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Projects;
+		--web-view-id: Projects;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+		--web-page-font: arial, sans-serif;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Mask_Group_7 {
+		position: absolute;
+		width: 919px;
+		height: 940px;
+		left: 969px;
+		top: 70px;
+		overflow: visible;
+	}
+	#Footer_hj {
+		position: absolute;
+		width: 1920px;
+		height: 70px;
+		left: 0px;
+		top: 1010px;
+		overflow: visible;
+	}
+	#Base_hk {
+		fill: rgba(46,72,43,1);
+	}
+	.Base_hk {
+		position: absolute;
+		overflow: visible;
+		width: 1800px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+	}
+	#Base_hl {
+		fill: rgba(87,96,73,1);
+	}
+	.Base_hl {
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		height: 70px;
+		left: 1800px;
+		top: 0px;
+	}
+	#links_hm {
+		position: absolute;
+		width: 296px;
+		height: 11px;
+		left: 812px;
+		top: 30px;
+		overflow: visible;
+	}
+	#NEWS_hn {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -8px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(247,247,247,1);
+	}
+	#SPORT_ho {
+		left: 73px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -8px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(247,247,247,1);
+	}
+	#WEATHER_hp {
+		left: 156px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -8px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(247,247,247,1);
+	}
+	#FUTURE_hq {
+		left: 255px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -8px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(247,247,247,1);
+	}
+	#Background_hr {
+		fill: rgba(46,72,43,1);
+	}
+	.Background_hr {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549));
+		overflow: visible;
+		position: absolute;
+		width: 1938px;
+		height: 88px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#About_hs {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1387px;
+		top: -6px;
+		overflow: visible;
+	}
+	#Button_02_ht {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button_02_ht {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#about_hu {
+		left: 25px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+	#Services_hv {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1490px;
+		top: -6px;
+		overflow: visible;
+	}
+	#Button_02_hw {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button_02_hw {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#SERVICES_hx {
+		left: 17px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Component_26__1 {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1598px;
+		top: -6px;
+		overflow: visible;
+	}
+	#Button_02_hz {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button_02_hz {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#PROJECTS_h {
+		left: 16px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Careers_h {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1701px;
+		top: -6px;
+		overflow: visible;
+	}
+	#Button_02_h {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button_02_h {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#CAREERS_h {
+		left: 18px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_h {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1804px;
+		top: -6px;
+		overflow: visible;
+		transition: all 0.30000001192092896s ease-in-out;
+		--web-animation: fadein 0.30000001192092896s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Contact.html;
+		cursor: pointer;
+	}
+	#Button_02_ia {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button_02_ia {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#CONTACT_h {
+		left: 18px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Home_h {
+		position: absolute;
+		width: 84px;
+		height: 52px;
+		left: 1285px;
+		top: -6px;
+		overflow: visible;
+	}
+	#Button01_h {
+		fill: rgba(14,51,1,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Button01_h {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#HOME_h {
+		left: 27px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+	#EGEC_Logo_ia {
+		position: absolute;
+		width: 264px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Forward_Arrow_ib {
+		position: absolute;
+		width: 18.341px;
+		height: 18.341px;
+		left: 1825.609px;
+		top: 531px;
+		overflow: visible;
+	}
+	#Path_10_ic {
+		fill: rgba(46,72,43,1);
+	}
+	.Path_10_ic {
+		overflow: visible;
+		position: absolute;
+		width: 18.341px;
+		height: 18.341px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Backward_Arrow_id {
+		transform: matrix(1,0,0,1,1040,532) rotate(180deg);
+		transform-origin: center;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_10_ie {
+		fill: rgba(46,72,43,1);
+	}
+	.Path_10_ie {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Text_Layout_if {
+		position: absolute;
+		width: 722px;
+		height: 508px;
+		left: 79px;
+		top: 115px;
+		overflow: visible;
+	}
+	#Custom_Training_Center_and_Cus {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 552px;
+		height: 212px;
+		line-height: 50px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Georgia, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(46,72,43,1);
+	}
+	#Project_Overview__The_project_ {
+		left: 0px;
+		top: 220px;
+		position: absolute;
+		overflow: visible;
+		width: 723px;
+		height: 288px;
+		line-height: 24px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Arial, arial, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(46,72,43,1);
+	}
+	#Grid_ii {
+		position: absolute;
+		width: 739.922px;
+		height: 366.543px;
+		left: 74px;
+		top: 643px;
+		overflow: visible;
+	}
+	#Mask_Group_1_ij {
+		position: absolute;
+		width: 229px;
+		height: 172px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_41297 {
+		position: absolute;
+		width: 739.922px;
+		height: 366.543px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_41296 {
+		position: absolute;
+		width: 356.959px;
+		height: 172px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_41300 {
+		position: absolute;
+		width: 322.311px;
+		height: 179.275px;
+		left: 0px;
+		top: 187.268px;
+		overflow: visible;
+	}
+	#Group_41299 {
+		position: absolute;
+		width: 322.311px;
+		height: 179.275px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_41302 {
+		position: absolute;
+		width: 306.768px;
+		height: 179.275px;
+		left: 433.154px;
+		top: 187.268px;
+		overflow: visible;
+	}
+	#Group_41301 {
+		position: absolute;
+		width: 306.768px;
+		height: 179.275px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_462 {
+		position: absolute;
+		width: 306.768px;
+		height: 179.275px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_6_ir {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_6_ir {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 1530px;
+		top: 856px;
+	}
+</style>
+<script id="applicationScript" type="text/javascript" src="Projects.js"></script>
+</head>
+<body>
+<div id="Projects">
+	<img id="Mask_Group_7" src="Mask_Group_7.png" srcset="Mask_Group_7.png 1x, Mask_Group_7@2x.png 2x">
+		
+	</svg>
+	<div id="Footer_hj" class="Footer">
+		<svg class="Base_hk">
+			<rect id="Base_hk" rx="0" ry="0" x="0" y="0" width="1800" height="70">
+			</rect>
+		</svg>
+		<svg class="Base_hl">
+			<rect id="Base_hl" rx="0" ry="0" x="0" y="0" width="120" height="70">
+			</rect>
+		</svg>
+		<div id="links_hm">
+			<div id="NEWS_hn">
+				<span>NEWS</span>
+			</div>
+			<div id="SPORT_ho">
+				<span>SPORT</span>
+			</div>
+			<div id="WEATHER_hp">
+				<span>WEATHER</span>
+			</div>
+			<div id="FUTURE_hq">
+				<span>FUTURE</span>
+			</div>
+		</div>
+	</div>
+	<svg class="Background_hr" viewBox="0 0 1920 70">
+		<path id="Background_hr" d="M 0 0 L 1920 0 L 1920 70 L 0 70 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="About_hs">
+		<svg class="Button_02_ht">
+			<rect id="Button_02_ht" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="about_hu">
+			<span>about</span>
+		</div>
+	</div>
+	<div id="Services_hv" class="Services">
+		<svg class="Button_02_hw">
+			<rect id="Button_02_hw" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="SERVICES_hx">
+			<span>SERVICES</span>
+		</div>
+	</div>
+	<div id="Component_26__1" class="Component_26___1">
+		<svg class="Button_02_hz">
+			<rect id="Button_02_hz" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="PROJECTS_h">
+			<span>PROJECTS</span>
+		</div>
+	</div>
+	<div id="Careers_h">
+		<svg class="Button_02_h">
+			<rect id="Button_02_h" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="CAREERS_h">
+			<span>CAREERS</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Contact_h">
+		<svg class="Button_02_ia">
+			<rect id="Button_02_ia" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="CONTACT_h">
+			<span>CONTACT</span>
+		</div>
+	</div>
+	<div id="Home_h">
+		<svg class="Button01_h">
+			<rect id="Button01_h" rx="5" ry="5" x="0" y="0" width="84" height="52">
+			</rect>
+		</svg>
+		<div id="HOME_h">
+			<span>HOME</span>
+		</div>
+	</div>
+	<img id="EGEC_Logo_ia" src="EGEC_Logo_ia.png" srcset="EGEC_Logo_ia.png 1x, EGEC_Logo_ia@2x.png 2x">
+		
+	<div id="Forward_Arrow_ib" class="Forward_Arrow">
+		<svg class="Path_10_ic" viewBox="0 0 18.341 18.341">
+			<path id="Path_10_ic" d="M 9.170731544494629 0 L 7.503326416015625 1.667405843734741 L 13.81564807891846 7.979727745056152 L 0 7.979727745056152 L 0 10.36173629760742 L 13.81564807891846 10.36173629760742 L 7.503326416015625 16.67405700683594 L 9.170731544494629 18.34146308898926 L 18.34146308898926 9.170731544494629 L 9.170731544494629 0 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="Backward_Arrow_id" class="Backward_Arrow">
+		<svg class="Path_10_ie" viewBox="0 0 16 16">
+			<path id="Path_10_ie" d="M 8 0 L 6.545454978942871 1.454545497894287 L 12.05194854736328 6.961039066314697 L 0 6.961039066314697 L 0 9.038961410522461 L 12.05194854736328 9.038961410522461 L 6.545454978942871 14.54545497894287 L 8 16 L 16 8 L 8 0 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="Text_Layout_if">
+		<div id="Custom_Training_Center_and_Cus">
+			<span>Custom Training Center and Custom Warehouses,<br/>Doha, Qatar</span>
+		</div>
+		<div id="Project_Overview__The_project_">
+			<span>Project Overview:<br/><br/>The project was built on a plot area of 250,000 sqm with total built up area of 90,000 sqm. Scope includes the master planning, full buildings design including the interior design. the project consists of 19 various buildings such as but not limited to; Training Center, accommodation building, auction yard, administration building, multiple storage for all goods might pass customs, sports facility and mosque. <br/><br/>The project comprises 2 phases as follows:<br/>- Phase 1: Buildings section; Masjid, training center, accommodation /service training center & gym, theater, VIP restaurant & museum, security building.<br/>- Phase 2: Warehouses section</span>
+		</div>
+	</div>
+	<div id="Grid_ii">
+		<img id="Mask_Group_1_ij" src="Mask_Group_1_ij.png" srcset="Mask_Group_1_ij.png 1x, Mask_Group_1_ij@2x.png 2x">
+			
+		</svg>
+		<div id="Group_41297">
+			<img id="Group_41296" src="Group_41296.png" srcset="Group_41296.png 1x, Group_41296@2x.png 2x">
+				
+			</svg>
+			<div id="Group_41300">
+				<img id="Group_41299" src="Group_41299.png" srcset="Group_41299.png 1x, Group_41299@2x.png 2x">
+					
+				</svg>
+			</div>
+			<div id="Group_41302">
+				<div id="Group_41301">
+					<img id="Rectangle_462" src="Rectangle_462.png" srcset="Rectangle_462.png 1x, Rectangle_462@2x.png 2x">
+						
+				</div>
+			</div>
+		</div>
+	</div>
+	<svg class="Ellipse_6_ir">
+		<ellipse id="Ellipse_6_ir" rx="3.5" ry="3.5" cx="3.5" cy="3.5">
+		</ellipse>
+	</svg>
+</div>
+</body>
+</html>
